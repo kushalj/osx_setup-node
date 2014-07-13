@@ -46,11 +46,11 @@ if [ -d .emacs.d/ ]; then
 fi
 
 git clone https://github.com/kushalj/osx_dotfiles.git
-ln -sb osx_dotfiles/.screenrc .
-ln -sb osx_dotfiles/.bash_profile .
-ln -sb osx_dotfiles/.bashrc .
-ln -sb osx_dotfiles/.bashrc_custom .
-ln -sf osx_dotfiles/.emacs.d .
+ln -s osx_dotfiles/.screenrc .
+ln -s osx_dotfiles/.bash_profile .
+ln -s osx_dotfiles/.bashrc .
+ln -s osx_dotfiles/.bashrc_custom .
+ln -s osx_dotfiles/.emacs.d .
 
 # Amazon EC2 metadata tools
 echo "wget http://s3.amazonaws.com/ec2metadata/ec2-metadata"
