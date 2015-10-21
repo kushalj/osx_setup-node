@@ -1,11 +1,9 @@
 setup.git
 =========
 
-(requires [Homebrew](http://brew.sh/))
 
 ```bash
 cd $HOME
-brew install git
 ./setup-node-osx/setup.sh   
 ```
 
